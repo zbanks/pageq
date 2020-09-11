@@ -1,0 +1,14 @@
+[package]
+name = "pageq"
+categories = ["command-line-utilites"]
+description = "a pager, more or less like more or less"
+authors = ["Zach Banks <zjbanks@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/zbanks/pageq"
+license = "MIT"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+termion = "1.5.5"
