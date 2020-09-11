@@ -41,6 +41,8 @@ Some of these have bad UI and are just hard to use, so `pageq` should make them 
 
 ### New features zbanks wants to add to `pageq`
 
+Be careful not to put too many features into `pageq` that should stay in the shell. A benefit of a dumb pager is that you end up with a oneliner to reproduce your work at the end.
+
 - Mouse support!
     - On exit, print contents that were highlighted (maybe optional?)
 - Emphasize saving to a file
@@ -54,3 +56,5 @@ Some of these have bad UI and are just hard to use, so `pageq` should make them 
     - Makes for an okay interface for reading tabular data
 - Preprocessors (uncompress, hexdump, grid, colorize)
     - Should be able to apply _after_ launching
+- Progressive filtering (multiple regexes)
+    - Solving puzzles, add successive filters
